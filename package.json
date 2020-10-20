@@ -1,5 +1,5 @@
 {
-  "name": "Pulse.git",
+  "name": "Master-mag.git",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/binom989/Pulse.git"
+    "url": "git+https://github.com/binom989/Master-mag.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/binom989/Pulse.git/issues"
+    "url": "https://github.com/binom989/Master-mag.git/issues"
   },
-  "homepage": "https://github.com/binom989/Pulse.git#readme",
+  "homepage": "https://github.com/binom989/Master-mag.git#readme",
   "devDependencies": {
     "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
