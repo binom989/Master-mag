@@ -5,14 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap CSS -->
-  <title>Pulse_course</title>
+  <title>Master-Mag</title>
 <!-- 
       <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
       <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-      <link rel="stylesheet" href="css/fonts.css">   <!-- подключение файлов стилей -->
+      <link rel="stylesheet" href="css/fonts.css">   <!-- подключение файлов стилей --> 
       <link rel="stylesheet" href="css/slick.css"/>
       <link rel="stylesheet" href="css/animate.css">
---> 
+
+
      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"> -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.min.css">  <!-- подключение файлов стилей -->
@@ -26,11 +27,28 @@
           <a href="#" class="header__logo">
             <img src="icons/Master-Mag-all.png" alt="logo">
           </a>
-        <div class="header__official">
-          Официальный представитель
-          <span>Garmin, Polar, Suunto</span>
 
+        <div class="header__official">
+          <a href="#" class="header__logo">  
+          О нас 1
+          <span>О нашей компании</span>
+          </a>
         </div>
+
+        <div class="header__official">
+          <a href="#3" class="header__logo">  
+          Как нас найти
+          <span>О нашей компании</span>
+          </a>
+        </div>
+
+        <div class="header__official">
+          <a href="#" class="header__logo">  
+          Наш магазин
+          <span>О нашей компании</span>
+          </a>
+        </div>
+
         <div class="header__contacts">
           <a href="tel:+79279892233" class="header__phone">+7 (927) 989-22-33</a>
           <button data-modal="consultation" class="button">заказать звонок</button>
@@ -62,7 +80,7 @@
           <button data-modal="consultation" class="button button_main">Заказать консультацию</button>
           <div class="promo__link">
             или
-            <a href="#">Перейти в каталог</a>
+            <a href="#2">Перейти в каталог</a>
           </div>
         </div>
       </div>
@@ -178,7 +196,7 @@
 
   <section class="catalog">
     <div class="container">
-      <h2 class="title">Каталог пульсометров</h2>
+      <h2 id="2" class="title">Каталог пульсометров</h2>  <!-- приминил якорь на странице -->
       <ul class="catalog__tabs"> 
         <li class="catalog__tab catalog__tab_active"><div>Для фитнеса</div></li>
         <li class="catalog__tab"><div>Для бега</div></li>
@@ -488,7 +506,7 @@
 
 
 
-  <footer class="footer">
+  <footer id="3" class="footer">
     <div class="footer__map"></div>
     
    <!--  <h3> Гугл карта.</h3> -->
