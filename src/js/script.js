@@ -20,6 +20,18 @@ $(document).ready(function(){
     });
 
 
+
+    $(document).ready(function() {
+        $('.test-popup').magnificPopup({type:'image'});
+      });
+    
+    
+
+ 
+
+
+
+
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
         $(this)
           .addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active')
@@ -239,3 +251,5 @@ $(document).ready(function(){
 document.querySelector('.next').addEventListener('click', function () {
     slider.goTo('next');
 }); */
+
+
