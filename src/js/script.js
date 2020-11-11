@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 
     $(document).ready(function() {
-        $('.test-popup').magnificPopup({type:'image'});
+        $('.test-popup1').magnificPopup({type:'image'});
       });
     
     

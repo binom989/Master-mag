@@ -185,8 +185,13 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <!-- <img src="img/Samsung_NP300V5A/IMG_3145.JPG" alt="slide1"> -->
-            <img src="img/IMG_3148-0.JPG" alt="slide1">
+            <!-- <img src="img/IMG_3148-0.JPG" alt="slide1"> -->
+            <a class="test-popup" href="img/Samsung_NP300V5A/IMG_3146.JPG">
+              <img src="img/Samsung_NP300V5A/IMG_3146.JPG" alt="Samsung_NP300V5A" class="test-popup1">
+              </a>
           </div>
+
+
           <div class="carousel-item">
             <img src="img/IMG_3149-0.JPG" alt="slide2">
           </div>
@@ -213,21 +218,89 @@
     </div>
   </div>
 
-  <div id="test-popup-cl" class="test-popup">
+<section class="tovar">
+    <div class="container">
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      <picture>
+        <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml">
+        <img src="img/IMG_3149-0.JPG" class="img-fluid img-thumbnail" alt="...">
+      </picture>
+    <h3>Модальное окно 1</h3>
+  </button>
 
-    <div class="test-popup-link">
-       <img src=img/Samsung_NP300V5A/IMG_3146.JPG alt="slide1">
+  <!-- Modal 1-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <!-- <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Заголовок модального окна</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div> -->
+
+        <div class="modal-body">
+          <a class="test-popup0" href="img/Samsung_NP300V5A/IMG_3146.JPG">
+            <!-- <img src="img/IMG_3149-0.JPG" alt="Samsung_NP300V5A" class="test-popup1"> -->
+            <picture>
+              <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml">
+              <img src="img/IMG_3149-0.JPG" class="img-fluid img-thumbnail" alt="...">
+            </picture>
+            </a>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+          <!-- <button type="button" class="btn btn-primary">Сохранить</button> -->
+        </div>
+      </div>
     </div>
+  </div>
+  <!-- Modal 1 end-->
 
-    <div class="test-popup-link">
-      <img src=img/Samsung_NP300V5A/IMG_3145.JPG alt="slide2">
-   </div>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    <picture>
+      <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml">
+      <img src="img/IMG_3149-0.JPG" class="img-fluid img-thumbnail" alt="...">
+    </picture>
+  <h3>Модальное окно 2</h3>
+  </button>
 
-</div>
+  <!-- Modal 2-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
 
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заголовок модального окна</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
 
+      <div class="modal-body">
+        <a class="test-popup0" href="img/Samsung_NP300V5A/IMG_3146.JPG">
+          <!-- <img src="img/IMG_3149-0.JPG" alt="Samsung_NP300V5A" class="test-popup1"> -->
+          <picture>
+            <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml">
+            <img src="img/IMG_3149-0.JPG" class="img-fluid img-thumbnail" alt="...">
+          </picture>
+          </a>
+      </div>
 
-
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <!-- <button type="button" class="btn btn-primary">Сохранить</button> -->
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Modal 2 end-->
+  </div>
+</section>
 
   <section class="catalog">
     <div class="container">
@@ -244,8 +317,15 @@
           <div class="catalog-item__wrapper">
             <div class="catalog-item__content catalog-item__content_active">
               <!-- <img src="img/pulsometr.png" alt="pulsometr" class="catalog-item__img"> -->
+
+<!--          <a class="test-popup" href="img/Samsung_NP300V5A/IMG_3146.JPG" role="button" data-slide="next">
               <img src="img/Samsung_NP300V5A/IMG_3146.JPG" alt="Samsung_NP300V5A" class="catalog-item__img">
-              <div class="catalog-item__subtitle">Samsung NP300V5A</div>
+              </a> -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                <img src="img/IMG_3149-0.JPG" alt="Samsung_NP300V5A!" class="test-popup1">
+              </button>
+
+              <div class="catalog-item__subtitle">Samsung! NP300V5A</div>
               <div class="catalog-item__descr">Цена 11 000р</div>
               <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
             </div>
@@ -615,7 +695,25 @@
       <img src="icons/up.svg" alt="up">
     </a>
 
-    
+    <div class="modal" id="order25">
+      <div class="modal__close">&times;</div>
+      <div class="modal__subtitle">Ваш заказ:</div>
+        <div class="modal__deskr">пульсометр Polar FT1</div>
+          <form class="feed-form feed-form_mt25" action="#">
+            <input name="name" placeholder="Ваше имя" type="text">
+            <input name="phone" placeholder="Ваш телефон">
+            <input name="email" placeholder="Ваш E-mail" type="email">
+
+            <!-- <input type="submit" value="Заказать консультацию"> -->
+            <!-- <textarea style="resize: none;" name="" cols="30" rows="10"></textarea> -->
+             <button class="button button_submit" >Купить25</button>
+             <!-- <input type="reset"> -->
+          </form>
+    </div>
+
+
+
+
 
 
   <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
