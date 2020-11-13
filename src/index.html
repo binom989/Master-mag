@@ -218,13 +218,18 @@
     </div>
   </div>
 
-<section class="tovar">
+<section class="tovar">   <!-- секция товар -->
     <div class="container">
+
+
+
+      
+
   <!-- Button trigger modal -->
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
       <picture>
-        <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml">
-        <img src="img/IMG_3149-0.JPG" class="img-fluid img-thumbnail" alt="...">
+        <!-- <source srcset="img/Samsung_NP300V5A/IMG_3146.JPG" type="image/svg+xml"> -->
+        <img src="img/Samsung_NP300V5A/IMG_3146.JPG" class="img-fluid img-thumbnail" alt="...">
       </picture>
     <h3>Модальное окно 1</h3>
   </button>
@@ -245,8 +250,8 @@
           <a class="test-popup0" href="img/Samsung_NP300V5A/IMG_3146.JPG">
             <!-- <img src="img/IMG_3149-0.JPG" alt="Samsung_NP300V5A" class="test-popup1"> -->
             <picture>
-              <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml">
-              <img src="img/IMG_3149-0.JPG" class="img-fluid img-thumbnail" alt="...">
+              <!-- <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml"> -->
+              <img src="img/Samsung_NP300V5A/IMG_3146.JPG" class="img-fluid img-thumbnail" alt="...">
             </picture>
             </a>
         </div>
@@ -260,47 +265,80 @@
   </div>
   <!-- Modal 1 end-->
 
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  <!-- Button trigger modal 2-->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
     <picture>
-      <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml">
+      <!-- <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml"> -->
       <img src="img/IMG_3149-0.JPG" class="img-fluid img-thumbnail" alt="...">
     </picture>
   <h3>Модальное окно 2</h3>
   </button>
 
   <!-- Modal 2-->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
 
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Заголовок модального окна</h5>
+      <!-- <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заголовок модального окна 2 </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
+      </div> -->
 
       <div class="modal-body">
-        <a class="test-popup0" href="img/Samsung_NP300V5A/IMG_3146.JPG">
+        <a class="test-popup0" href="img/IMG_3149-0.JPG">
           <!-- <img src="img/IMG_3149-0.JPG" alt="Samsung_NP300V5A" class="test-popup1"> -->
           <picture>
-            <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml">
+            <!-- <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml"> -->
             <img src="img/IMG_3149-0.JPG" class="img-fluid img-thumbnail" alt="...">
           </picture>
           </a>
       </div>
 
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть 2</button>
         <!-- <button type="button" class="btn btn-primary">Сохранить</button> -->
       </div>
     </div>
   </div>
   </div>
   <!-- Modal 2 end-->
-  </div>
-</section>
+
+<!-- Button trigger modal 3-->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+    <picture>
+      <!-- <source srcset="img/IMG_3149-0.JPG" type="image/svg+xml"> -->
+      <img src="img/IMG_3149-0.JPG" class="img-fluid img-thumbnail" alt="...">
+    </picture>
+  <h3>Модальное окно 3</h3>
+  </button>
+   <!-- Модальное окно 3 -->
+   <div class="overlay3">            
+    <div class="modal" id="exampleModal3">
+      <div class="modal__close">&times;</div>
+      <div class="modal__subtitle">Просто заполните форму заявки</div>
+        <div class="modal__deskr">и мы Вам перезвоним через 10 минут</div>
+
+      <div class="modal-body3">
+        <a class="test-popup0" href="img/IMG_3149-0.JPG">
+          <picture>
+            <img src="img/IMG_3149-0.JPG" class="img-fluid img-thumbnail" alt="...">
+          </picture>
+        </a>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть 3</button>
+        <!-- <button type="button" class="btn btn-primary">Сохранить</button> -->
+      </div>
+    </div>
+
+    </div>  <!-- Модальное окно 3 -->
+
+
+  </div>  <!-- container -->
+</section>   <!-- секция товар конец -->
 
   <section class="catalog">
     <div class="container">
@@ -316,13 +354,12 @@
         <div class="catalog-item">  <!-- Item 1 -->
           <div class="catalog-item__wrapper">
             <div class="catalog-item__content catalog-item__content_active">
-              <!-- <img src="img/pulsometr.png" alt="pulsometr" class="catalog-item__img"> -->
-
-<!--          <a class="test-popup" href="img/Samsung_NP300V5A/IMG_3146.JPG" role="button" data-slide="next">
-              <img src="img/Samsung_NP300V5A/IMG_3146.JPG" alt="Samsung_NP300V5A" class="catalog-item__img">
-              </a> -->
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                <img src="img/IMG_3149-0.JPG" alt="Samsung_NP300V5A!" class="test-popup1">
+                <a class="test-popup0" href="img/IMG_3149-0.JPG">
+                  <picture>
+                    <img src="img/IMG_3149-0.JPG" class="img-fluid img-thumbnail" alt="...">
+                  </picture>
+                  </a>
               </button>
 
               <div class="catalog-item__subtitle">Samsung! NP300V5A</div>

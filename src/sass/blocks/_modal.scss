@@ -58,7 +58,7 @@
 }
 
 // скрываем модальные окна пока не активные
-#consultation, #order, #thenks {
+#consultation, #order, #thenks, #exampleModal3 {
     display: none;
 }
 
@@ -79,22 +79,22 @@
 .fade {
     position: relative;
     top: 50%;
-    //left: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    width: 750px;
-    height: 750px;
+    width: 650px;
+    height: 650px;
     background-color: #26c56d;
 }
 .modal-content {
     //margin-right: 1px;
-    position: relative;
-    //position: absolute;
+    //position: relative;
+    position: absolute;
     //display: flex;
     top: 50%;
     //left: 50%;
     //transform: translate(-50%, -50%);
-    width: 650px;
-    height: 530px;
+    width: 550px;
+    height: 430px;
     background-color: #b16666;
     //padding: 10px 10px 10px 10px;
     
